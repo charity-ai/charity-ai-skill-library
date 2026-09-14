@@ -134,7 +134,19 @@ Use a controlled test contact and verify the full path:
 
 Use `revenue-capture-intake-diagnostics` for production evidence. Report **Live**, **Configured but untested**, and **Blocked or pending user action** separately. Never call a conversion layer complete merely because its screen exists.
 
-### 9. Launch demand generation
+### 9. Deliver the paid decision product
+
+Deliver a decision-ready package within **72 business hours after the paid buyer’s 15-minute working session**. Use 4–6 hours per diagnostic for the first three engagements. Improve toward 2.5–4 hours only after quality is proven.
+
+The buyer receives an Executive Revenue Scorecard, Revenue Engine Build Blueprint, 90-Day Action Plan, and a private 8–12 minute executive walkthrough. Keep the implementation proposal separate. The diagnostic must retain value even if the buyer declines implementation.
+
+Automate payment verification, contact/opportunity synchronization, appointment confirmation, reminders, delivery-date fields, status changes, and owner alerts. Preserve human review for account-specific claims, opportunity prioritization, investment recommendation, final report approval, and commercial closing.
+
+Read `references/delivery-operations.md` for the delivery timeline, service-level standard, CRM stages, package structure, and automation boundary. Read `templates/client-delivery-messages.md` before configuring the payment-cleared acknowledgment, optional appointment text, missing-input request, delivery email, or decision follow-up.
+
+If the booking calendar is visible before payment verification, report it as a hardening gap. Gate booking through a verified PayPal event and a controlled booking link. Do not trust a payment-return query parameter as proof of payment.
+
+### 10. Launch demand generation
 
 Do not wait for generic SEO. Start with a named-account authority campaign:
 
@@ -148,7 +160,7 @@ Do not wait for generic SEO. Start with a named-account authority campaign:
 
 Use Search Atlas as authority infrastructure. First establish a baseline, map commercial prompts, publish real commercial/evidence-led pages, create one original benchmark or research asset, then use cloud stacks as a conservative support layer. Do not use automated link volume, thin AI content, fabricated local entities, fake reviews, repetitive exact-match anchors, or undisclosed community seeding as the core strategy.
 
-### 10. Package and deliver
+### 11. Package and deliver
 
 Run type-check, production build, tests, public-route checks, and relevant CRM read validations. Save a production checkpoint after a material implementation change. Package source and handoff documentation when requested.
 
@@ -160,7 +172,9 @@ When live payment is involved, say exactly what has been proven and what remains
 - `templates/15-minute-diagnostic-call-script.md`: paid-buyer interview guide.
 - `templates/ghl-workflow-build-prompt.md`: concise native workflow prompt.
 - `templates/paypal-live-webhook-checklist.md`: Sandbox-to-Live webhook registration and safety checklist.
+- `templates/client-delivery-messages.md`: payment-cleared, appointment, delivery, and decision messages.
 - `references/ai-search-revenue-diagnostic-launch.md`: methodology, Search Atlas operations, channel roles, and 30-day demand plan.
+- `references/delivery-operations.md`: 72-hour delivery SOP, package standard, and automation boundary.
 - `scripts/build_ghl_diagnostic_foundation.sh`: reusable CRM foundation script.
 
 ## Final reporting standard
